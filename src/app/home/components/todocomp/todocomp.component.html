@@ -1,0 +1,18 @@
+
+    <div class="todo-box">
+        <div class="add-box">
+            <label for="input_todo"></label>
+            <input type="text" id="input_todo" #input_todo placeholder="New ToDo">
+                <button  class="addButton" (click)='onAdd(input_todo)' >Add</button>
+        </div>
+        <div class="list-box">
+            <div class="show-data">
+                <div class="list-data">
+                    <li *ngFor="let item of tasks">{{ item.task }} 
+                        <i class="fa fa-trash-o "  (click)='onDelete(item.id)' aria-hidden="true"></i>
+                    </li>
+                </div>           
+            </div> 
+        </div>
+    </div>       
+

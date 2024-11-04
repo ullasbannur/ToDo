@@ -1,0 +1,111 @@
+input[type="text"]:placeholder {
+             
+    text-align: center;
+}
+
+input[type="text"]:focus {
+    /* border-color: blue; */
+    outline: none;
+    /* outline-color: blue;  */
+}
+
+#input_todo{
+    text-align: center ; 
+    background-color: white;
+    /* border: none  ;  */
+    width: 400px;
+    border-radius: 8px;
+    height: 40px;
+    margin-right :10px ;
+    /* border: blue; */
+    border-color: blue;
+
+    
+}
+
+.todo-box{
+ 
+    border-radius: 8px;
+    background-color:white ;
+    padding: 20px;
+    width: 500px; 
+    margin: 30px auto; 
+    height: auto;
+}
+
+.add-box{    
+    margin-left: 25px;
+    display: flex; 
+    /* justify-content: space-between;  */
+    /* background-color: rgb(196, 195, 195); */
+    background-color:white ;
+
+    width: 90%;
+}
+
+
+.addButton{
+    /* box-shadow: 2px 4px 6px 0px rgba(17,179,15,0.9); */
+    color: rgb(47, 189, 47);
+    border-radius: 8px;
+    border: none;
+    width: 100px;
+    color: white;
+}
+
+.list-box{
+    margin-top:40px ;
+    
+}
+
+.show-data{
+    display:flex ;
+    text-align: center;
+    gap: 10px;
+    justify-content: center ;
+    /* background-color:rgb(196, 195, 195); */
+    background-color:white ;
+    
+    
+}
+
+.list-data{
+    /* background-color: rgb(196, 195, 195); */
+    background-color:white ;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+}
+
+
+.list-data li{
+    background-color: rgb(154, 209, 255) ;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    border-radius: 8px;
+    height: 30px; 
+    
+}
+
+.delButton{
+    box-shadow: 1px 4px 9px 0px rgba(187,17,17,1);
+    color: red;
+    border-radius: 8px ;
+    border: none;
+}
+
+.fa{
+
+    /* background-color: white; */
+    padding: 8px;
+    /* padding-bottom: 5px; */
+    background-color:  rgb(34, 60, 155);
+    color: white;
+    border-radius: 4px;
+}
+
